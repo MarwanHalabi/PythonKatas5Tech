@@ -1,4 +1,6 @@
-def find_difference(numbers):
+from typing import List
+
+def find_difference(numbers: List):
     """
     Finds the difference between the largest and smallest numbers in the list.
 
