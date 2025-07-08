@@ -8,8 +8,9 @@ def find_difference(numbers):
     Returns:
         the difference between the largest and smallest numbers
     """
-    mx = max(numbers)
-    mn = min(numbers)
+    mx = max(numbers) if numbers else 0
+    mn = min(numbers) if numbers else 0
+    
     if mx * mn < 0:
         return abs(mn) + abs(mx)
     return mx - mn
