@@ -16,4 +16,4 @@ class TestRotate(unittest.TestCase):
         [9, 6, 3]
         ]
         value = rotate_matrix(matrix)
-        self.assertEqual(res, "fl")
+        self.assertEqual(res, value)
