@@ -2,7 +2,7 @@ import unittest
 from katas.matrix_rotate import rotate_matrix
 
 
-class TestRotate(unittest.TestCase):
+class TestMatrixRotate(unittest.TestCase):
     def rotate_matrix(self):
         matrix = [
         [1, 2, 3],
