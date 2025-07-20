@@ -8,7 +8,9 @@ def is_unique(string):
     Returns:
         True if all characters are unique, False otherwise
     """
-    return True if len(string) == len(set(string)) else False
+    
+    
+    return True
 
 
 if __name__ == '__main__':

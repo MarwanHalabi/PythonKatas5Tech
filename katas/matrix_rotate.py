@@ -5,15 +5,7 @@ def rotate_matrix(matrix):
     Args:
         matrix: the 2D square matrix to rotate
     """
-    n = len(matrix)
-    for cir in range(n//2):
-        for i in range(cir, n - cir -1):
-            start = [cir, i]
-            cell_2 = [start[1], n - start[0] - 1]
-            cell_3 = [cell_2[1], n - cell_2[0] - 1]
-            cell_4 = [cell_3[1], n - cell_3[0]- 1]
-            
-            matrix[start[0]][start[1]], matrix[cell_2[0]][cell_2[1]], matrix[cell_3[0]][cell_3[1]], matrix[cell_4[0]][cell_4[1]] = matrix[cell_4[0]][cell_4[1]], matrix[start[0]][start[1]], matrix[cell_2[0]][cell_2[1]], matrix[cell_3[0]][cell_3[1]]
+    pass
 
 
 def print_matrix(matrix):

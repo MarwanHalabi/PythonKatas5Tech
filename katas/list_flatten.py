@@ -8,13 +8,8 @@ def flatten_list(nested_list):
     Returns:
         a flat list containing all integers from the nested structure
     """
-    res = []
-    for item in nested_list:
-        if isinstance(item, list):
-            res.extend(flatten_list(item))
-        else:
-            res.append(item)
-    return res
+    # hint: isinstance()
+    return []
 
 
 if __name__ == '__main__':
